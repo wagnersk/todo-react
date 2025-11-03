@@ -1,4 +1,4 @@
-export const TASK_KEY = 'tasks';
+export const TASKS_KEY = 'tasks';
 
 export enum TaskState {
     Creating = 'creating',
@@ -6,7 +6,7 @@ export enum TaskState {
 }
 
 
-export interface Task{
+export interface Task {
     id: string;
     title: string;
     conclued?: boolean;
