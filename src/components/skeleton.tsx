@@ -31,3 +31,4 @@ export default function Skeleton({
         <div className={skeletonVariants({ rounded, className })} {...props} />
     );
 }
+
