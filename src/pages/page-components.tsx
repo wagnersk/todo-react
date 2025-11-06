@@ -46,10 +46,10 @@ export default function TaskItem({ task }: TaskItemProps) {
             {!isEditing ? (
                 <div className="flex items-center gap-4">
                     <InputCheckbox
-                        value={task.concluded?.toString()}
-                        checked={task.concluded}
+                        value={task.conclued?.toString()}
+                        checked={task.conclued}
                     />
-                    <Text className={cx("flex-1", { "line-through": task?.concluded })}>
+                    <Text className={cx("flex-1", { "line-through": task?.conclued })}>
                         {task?.title}
                     </Text>
                     <div className="flex gap-1">
