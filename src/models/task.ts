@@ -9,6 +9,6 @@ export enum TaskState {
 export interface Task {
     id: string;
     title: string;
-    conclued?: boolean;
+    concluded?: boolean;
     state?: TaskState;
 }
